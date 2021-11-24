@@ -1,7 +1,9 @@
 # stars_rating
 Proyecto de prueba StarRate
 Setup:
+
 1- Clonar el repositorio con el comando: git clone git@github.com:I-Love-Symfony/stars_rating.git
+
 2- Instalar dependencias:
   - composer update
   - yarn install --force 
@@ -28,6 +30,7 @@ Setup:
     }
 	
 4- Agregar el campo al Form deseado:	
+
 	.
 	.
 	use App\Form\Type\StarRateType;
@@ -53,6 +56,7 @@ Setup:
    .
    .
    .
+   
 6- Sobreescribir el tema del formulario en el archivo config/packages/twig.yaml:
    twig:
     default_path: '%kernel.project_dir%/templates'
